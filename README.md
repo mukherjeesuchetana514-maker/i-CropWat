@@ -38,7 +38,7 @@
 | **Total** | **~₹795** | |
 
 ### Snapshots
-* `images/circuit.jpg`)*
+* `i-CropWat.jpg` *
 
 ---
 
