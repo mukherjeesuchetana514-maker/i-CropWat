@@ -38,7 +38,7 @@
 | **Total** | **~₹795** | |
 
 ### Snapshots
-* `i-CropWat.jpg` *
+![i-CropWat](i-CropWat.jpg)
 
 ---
 
