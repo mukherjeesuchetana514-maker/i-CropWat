@@ -2,28 +2,28 @@
 
 ![Status](https://img.shields.io/badge/Status-Prototype-green) ![Platform](https://img.shields.io/badge/Platform-ESP32-blue) ![IoT](https://img.shields.io/badge/IoT-Blynk-orange)
 
-> [cite_start]**"Remolding plant watering..."** [cite: 3]
+> Remolding plant watering...
 
-[cite_start]**i-CropWat** is an intelligent, IoT-enabled irrigation system designed to optimize water usage for agriculture and smart gardening[cite: 18, 19]. [cite_start]Unlike traditional timer-based systems, i-CropWat combines real-time **soil moisture data** with **live weather forecasting** (via WeatherAPI) to make smart watering decisions—preventing water waste when rain is predicted[cite: 20, 21].
+**i-CropWat** is an intelligent, IoT-enabled irrigation system designed to optimize water usage for agriculture and smart gardening. Unlike traditional timer-based systems, i-CropWat combines real-time **soil moisture data** with **live weather forecasting** (via WeatherAPI) to make smart watering decisions—preventing water waste when rain is predicted.
 
 ---
 
 ## 🌟 Key Features
 
 * **🧠 Weather Intelligence:** Automatically fetches local weather forecasts. If rain is predicted (high probability), the system skips scheduled watering to conserve resources.
-* [cite_start]**📱 IoT Monitoring:** Real-time tracking of Soil Moisture, Air Temperature, and Humidity via the **Blynk IoT App**[cite: 28].
+* **📱 IoT Monitoring:** Real-time tracking of Soil Moisture, Air Temperature, and Humidity via the **Blynk IoT App**.
 * **🖥️ On-Device Menu System:** A 20x4 LCD interface allows users to select specific crops or flowers without reprogramming the device.
 * **🌾 Customized Plant Profiles:** Pre-configured moisture thresholds for diverse crops (e.g., Wheat, Rice) and flowers (e.g., Rose, Sunflower) to support precision agriculture.
 * **🚨 Emergency Protocol:**
     * **Auto-Water:** Triggers immediate watering if moisture drops to critical levels.
     * **Auto-Cutoff:** Stops pumping immediately if moisture exceeds safety limits to prevent root rot.
-* **🔋 Efficient & Low Cost:** Designed for small and marginal farmers with an estimated build cost of approx. [cite_start]₹795[cite: 42, 77].
+* **🔋 Efficient & Low Cost:** Designed for small and marginal farmers with an estimated build cost of approx.
 
 ---
 
 ## 🛠️ Hardware Architecture
 
-### [cite_start]Components Required [cite: 78-90]
+### Components Required 
 | Component | Budget (Est.) | Function |
 | :--- | :--- | :--- |
 | **NodeMCU – ESP 32** | ₹250 | The brain of the system (Wi-Fi + Processing) |
@@ -37,8 +37,8 @@
 | **Others** | ₹70 | Enclosure and misc. hardware |
 | **Total** | **~₹795** | |
 
-### Circuit Diagram
-*(Please upload your circuit image to the repository and link it here, e.g., `images/circuit.jpg`)*
+### Snapshots
+* `images/circuit.jpg`)*
 
 ---
 
@@ -81,47 +81,47 @@ The project is built using **C++** on the Arduino framework.
 
 ---
 
-## [cite_start]📱 How It Works [cite: 22-32]
+## 📱 How It Works 
 
-1.  [cite_start]**Startup:** The system connects to Wi-Fi and fetches the location automatically via IP[cite: 23].
+1.  **Startup:** The system connects to Wi-Fi and fetches the location automatically via IP.
 2.  **Selection Mode:** The user selects the **Category** (Crop/Flower) and **Plant Name** via the LCD Menu.
 3.  **Monitoring Loop:**
-    * [cite_start]**Sensor Check:** Periodically reads sensor data[cite: 24].
+    * **Sensor Check:** Periodically reads sensor data.
     * **Weather Check:** Polls WeatherAPI for rain predictions.
 4.  **Decision Engine:**
     * *Is soil dry?* -> Check Weather.
     * *Is rain coming?* -> **SKIP** watering (Save Water).
-    * [cite_start]*Is weather clear?* -> **START** Pump via Relay[cite: 29, 30].
-5.  [cite_start]**Feedback:** Status is updated on the LCD and sent to the phone (Blynk)[cite: 28].
+    * *Is weather clear?* -> **START** Pump via Relay.
+5.  **Feedback:** Status is updated on the LCD and sent to the phone (Blynk).
 
 ---
 
-## [cite_start]🔮 Future Scope [cite: 96-104]
+## 🔮 Future Scope 
 
 * **Hardware Integration:** Transition from breadboard prototypes to a custom PCB.
 * **Product Optimization:** Switching to retail-version components to lower costs for mass production.
-* [cite_start]**Urban Adaptability:** Refining the system for balcony gardens and community vertical farming[cite: 93].
-* [cite_start]**Patenting:** Filing for a patent for the unique logic integration[cite: 103].
+* **Urban Adaptability:** Refining the system for balcony gardens and community vertical farming.
+* **Patenting:** Filing for a patent for the unique logic integration.
 
 ---
 
 ## 👥 Team Starlet
 
-[cite_start]**Developed by students of MCKV Institute of Engineering[cite: 7, 8]:**
-* [cite_start]**Suchetana Mukherjee** [cite: 5]
-* [cite_start]**Sukanya Rana** [cite: 6]
+**Developed by students of MCKV Institute of Engineering:**
+* **Suchetana Mukherjee** 
+* **Sukanya Rana** 
 
 **Supervisor:**
-* **Mr. [cite_start]Mojammel Rahaman** (Assistant Professor, Basic Science & Humanitics Dept, MCKVIE) [cite: 108]
+* **Mr. [cite_start]Mojammel Rahaman** (Assistant Professor, Basic Science & Humanitics Dept, MCKVIE) 
 
 ---
 
 ## 🙏 Acknowledgements
 
-[cite_start]Special thanks to our college faculty and the open-source community for the libraries used in this project[cite: 106].
+Special thanks to our college faculty and the open-source community for the libraries used in this project.
 
 *References:*
-* [cite_start]*Smart Irrigation System Literature* [cite: 97]
+* *Smart Irrigation System Literature*
 * *ESP32 IoT Implementations*
 
 ---
