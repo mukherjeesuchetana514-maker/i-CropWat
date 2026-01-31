@@ -59,8 +59,7 @@ The project is built using **C++** on the Arduino framework.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/i-CropWat.git](https://github.com/YOUR_USERNAME/i-CropWat.git)
-    ```
+    git clone [https://github.com/mukherjeesuchetana514-maker/i-CropWat.git]
 2.  **Hardware Setup:**
     * Connect the **Soil Sensor** to Pin `34`.
     * Connect the **DHT11** to Pin `4`.
