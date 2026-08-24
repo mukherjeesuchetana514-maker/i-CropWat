@@ -111,7 +111,7 @@ The project is built using **C++** on the Arduino framework.
 * **Sukanya Rana** 
 
 **Supervisor:**
-* **Mr. [cite_start]Mojammel Rahaman** (Assistant Professor, Basic Science & Humanitics Dept, MCKVIE) 
+* **Mr. Mojammel Rahaman** (Assistant Professor, Basic Science & Humanitics Dept, MCKVIE) 
 
 ---
 
